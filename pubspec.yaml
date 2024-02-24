@@ -1,0 +1,31 @@
+name: file_pod
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  socket_io_client: ^2.0.3+1
+  provider: ^6.1.1
+  file_picker: ^6.1.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # fonts:
+  #   - family: Muli
+  #     fonts:
+  #       - asset: assets/fonts/muli/Muli.ttf
+  #       - asset: assets/fonts/muli/Muli-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/muli/Muli-Light.ttf
+  #         weight: 300
