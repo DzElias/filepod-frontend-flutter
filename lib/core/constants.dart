@@ -1,1 +1,1 @@
-String SOCKETURI = 'http://26.193.132.186:3000';
+String SOCKETURI = 'https://filepod-backend-node.onrender.com/';
