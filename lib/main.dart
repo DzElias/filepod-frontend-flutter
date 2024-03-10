@@ -1,5 +1,5 @@
 
-import 'package:file_pod/pages/home_page.dart';
+import 'package:file_pod/pages/home/home_page.dart';
 import 'package:file_pod/services/socket_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -18,6 +18,7 @@ class MainApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => SocketService())
       ],
       child: const MaterialApp(
+        title: "FilePod",
         debugShowCheckedModeBanner: false,
         home: HomePage()
       ),
