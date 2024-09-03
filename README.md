@@ -1,4 +1,4 @@
-# File Pod
+# File Pod - Transferencias de archivos P2P
 Esta aplicacion está diseñada para permitir a los usuarios transferir archivos de manera rápida y sencilla utilizando Flutter. El proceso de transferencia de archivos se realiza de la siguiente manera:
 
 1 - El usuario carga un archivo desde su dispositivo utilizando la interfaz de usuario proporcionada.  
