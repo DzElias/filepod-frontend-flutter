@@ -1,1 +1,1 @@
-String SOCKETURI = 'https://filepod-backend-node.onrender.com/';
+String SOCKETURI = 'https://filpodback.roelias.dev/';
