@@ -1,8 +1,50 @@
-# File Pod
-Esta aplicacion está diseñada para permitir a los usuarios transferir archivos de manera rápida y sencilla utilizando Flutter. El proceso de transferencia de archivos se realiza de la siguiente manera:
+# 📁 File Pod
 
-1 - El usuario carga un archivo desde su dispositivo utilizando la interfaz de usuario proporcionada.  
-2 - El archivo seleccionado se envía al servidor a través de una conexión socket.  
-3 - Una vez que el servidor recibe el archivo, devuelve un UID único que identifica ese archivo en particular.  
-4 - Utilizando este UID, se genera un enlace de descarga y un código QR correspondiente.  
-5 - El usuario puede compartir el enlace de descarga o el código QR con otros para permitirles iniciar la descarga del archivo.  
+File Pod es una aplicación desarrollada en **Flutter** que permite transferir archivos de forma rápida, sencilla y segura entre dispositivos mediante un servidor con **sockets**.  
+
+## 🚀 Características principales
+
+- Carga de archivos desde el dispositivo.
+- Envío de archivos al servidor mediante conexión **socket**.
+- Generación automática de un **UID único** para cada archivo.
+- Creación de **enlace de descarga** y **código QR** para compartir fácilmente.
+- Descarga directa del archivo desde cualquier dispositivo.
+
+---
+
+## 🖼️ Vista general
+
+### Frontend (Flutter)
+<img src="https://github.com/user-attachments/assets/f4025b0a-a158-48c1-9789-05593a9ba216" width="700"/>
+
+### Backend (Servidor con Socket)
+<img src="https://github.com/user-attachments/assets/4115c33a-e0bb-41a4-b00c-b299127ab028" width="700"/>
+
+---
+
+## ⚙️ Flujo de funcionamiento
+
+1️⃣ El usuario selecciona un archivo desde su dispositivo.  
+2️⃣ El archivo se envía al servidor mediante socket.  
+3️⃣ El servidor genera un **UID** y lo devuelve al cliente.  
+4️⃣ Se crea un **link de descarga** y un **QR** asociados a ese UID.  
+5️⃣ Otros usuarios pueden descargar el archivo escaneando el QR o usando el enlace.
+
+---
+
+## 🧩 Tecnologías utilizadas
+
+- **Frontend:** Flutter  
+- **Backend:** Node.js / Socket.IO  
+- **Comunicación:** WebSockets  
+- **QR:** Paquete `qr_flutter`
+
+---
+
+## 🏗️ Instalación y uso
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tuusuario/file_pod.git
+
+
