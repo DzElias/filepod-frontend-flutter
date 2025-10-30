@@ -1,4 +1,4 @@
-# 📁 File Pod
+# 📁 FilePod
 
 File Pod es una aplicación desarrollada en **Flutter** que permite transferir archivos de forma rápida, sencilla y segura entre dispositivos mediante un servidor con **sockets**.  
 
